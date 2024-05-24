@@ -1,5 +1,3 @@
-Your Markdown file is mostly correct, but it needs some minor adjustments for clarity and correctness. Here is the revised version:
-
 ````markdown
 # How to Make a POST Request
 
