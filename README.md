@@ -67,6 +67,7 @@ By following the steps above, you can make a POST request to add a new book to t
 ```
 This revised version ensures clarity and correctness in explaining the two methods for making a POST request.
 ```
+
 # How to Make a PATCH Request
 
 This document explains how to make a PATCH request to update an existing book entry on a server. We will use the following JSON data as an example:
@@ -98,16 +99,8 @@ Postman is a popular tool for testing APIs. Follow these steps to make a PATCH r
 
 cURL is a command-line tool for making network requests. You can use it to make a PATCH request with the following command:
 
-1. **Create the JSON File**: Save the JSON data in a file named `body.json`.
-
-   ```json
-   {
-     "quantity": 3
-   }
-   ```
-
-2. **Open the Terminal**: Open your terminal or command prompt.
-3. **Run the cURL Command**: Use the following cURL command to make the PATCH request:
+1. **Open the Terminal**: Open your terminal or command prompt.
+2. **Run the cURL Command**: Use the following cURL command to make the PATCH request:
 
    ```sh
    curl localhost:8080/checkout?id=2 --request "PATCH"
