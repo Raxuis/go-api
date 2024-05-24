@@ -18,7 +18,7 @@ This document explains how to make a POST request to add a new book entry to a s
 ## Possibilities:
 
 - Use Postman
-- Use CURL
+- Use cURL
 
 ### Using Postman
 
